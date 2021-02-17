@@ -85,7 +85,7 @@ p.more {
 
 /* aside "hours" styles */
 aside {
-  background: url(file:///C|/Users/14083/Desktop/Spring%202021/AVT%20217/LWD5e_materials/ch14/images/scallop.png) repeat-y left top;
+  background: url("scallop.png") repeat-y left top;
   background-color: #F6F3ED;
 	
 	padding: 1em; padding-left: 45px;
