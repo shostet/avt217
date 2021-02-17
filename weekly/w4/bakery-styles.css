@@ -26,7 +26,7 @@ a:focus, a:hover, a:active { color: #F9AB33; }
 /* header styles */
 header {
   color: white;
-  background:  url(file:///C|/Users/14083/Desktop/Spring%202021/AVT%20217/LWD5e_materials/ch14/images/croissants_banner.jpg) no-repeat center center;
+  background:  url("croissants_banner.jpg") no-repeat center center;
   background-size: cover; 
   text-align: center;
 	
