@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'advent_prolight';
+    src: url('adventpro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	font-family: 'advent_prolight';
+}
+
+@font-face {
+    font-family: 'whitehallregular';
+    src: url('whitehall-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+	font-family: 'whitehallregular';
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+}
+
+p {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+}
