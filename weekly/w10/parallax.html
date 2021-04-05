@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parallax Scrolling</title>
+	<style>
+		body, html {
+			height: 100%;
+		}
+		
+		.parallax {
+			background-image: url("img/dog.jpg");
+			
+			height: 100%;
+			
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		.parallax2 {
+			background-image: url("img/cat.jpg");
+			
+			height: 60%;
+			
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="parallax"></div>
+		<div style="height:100px;background-color:white;font-size:36px;text-align:center;">
+			Here's a cute dog!
+		</div>
+	<div class="parallax"></div>
+	<div class="parallax2"></div>
+		<div style="height:100px;background-color:white;font-size:36px;text-align:center;">
+			And a cute cat!
+		</div>
+	<div class="parallax2"></div>
+	
+</body>
+</html>
