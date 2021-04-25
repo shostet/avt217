@@ -297,6 +297,25 @@ img.portfolio {
 
 /*links and images*/
 
+a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #480138;
+	text-decoration: underline;
+}
+
+a:active {
+
+}
+
 /*footer*/
 
 #footer {
