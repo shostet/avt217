@@ -53,32 +53,52 @@ table {
 /*start of actual css stuff*/
 
 html {
+	background-image: url("../img/watercolor.png");
+	background-image: url("../img/memphis-colorful.png");
+	background-blend-mode: soft-light;
+	
 	background-color: rgba(217,210,214,1); 
+	
 }
 
-body {
+main {
+	
+}
 
+main {
+	
 }
 
 #wrapper, #about, #resume, #contact, h1, h2, h2.description {
 	margin-bottom: 40px;
 }
 
+h2, h2.description {
+	margin-bottom: 20px;
+}
+
 /*header*/
 
+header, #footer{
+	background-color: rgba(237,231,239,0.75);
+}
+
 header {
-	background-color: rgba(237,231,239,1);
 	height: 100px;
 	width: 100%;
-	
+}
+
+header, nav, .dropbtn, .dropdown, .dropdown-content {
+
 }
 
 nav {
-	display: inline;
+	display: inline-block;
+	align-content: center;
 }
 
 .dropbtn {
-	background-color: rgba(237,231,239,1);
+	background-color: rgba(237,231,239,0.2);
 	color: black;
 	padding: 16px;
 	font-size: 16px;
@@ -88,7 +108,7 @@ nav {
 
 .dropdown {
 	position: relative;
-	display: inline-block;
+	display: inline;
 }
 
 .dropdown-content {
@@ -128,31 +148,76 @@ nav {
 
 #wrapper {
 	width: 1080px;
-	background-color: rgba(217,210,214,1);
+	/*background-color: rgba(217,210,214,1);*/
 	overflow: hidden;
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #intro {
-	display: inline;
+	display: inline-block;
+	width: 1080px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 40px;
+	background-color: inherit;
 }
 
 #about {
+	width: 1080px;
+}
+
+p.about {
+	text-align: left;
+	float: left;
+	margin-top: 15px;
+	margin-right: 100px;
+	width: 800px;
+}
+
+p.caption {
+	margin-bottom: 20px;
+}
+
+#portfolio {
+	margin-top: 40px;
+	clear: both;
+}
+
+.music {
 
 }
 
-#about img {
-	margin-top: 25px;
-}
-
-.row {
+.film {
+	display: block;
+	width:1080px;
 	align-content: center;
+}
+
+h3.film {
+	text-align: center;
+}
+
+iframe.film {
+	align-content: center;
+}
+
+/*.rowOne {
+	align-content: center;
+	display: block;
 	padding: 10px;
 	margin-right: 25px;
 	margin-bottom: 25px;
 }
+
+.rowTwo {
+	align-content: center;
+	display: block;
+	padding: 10px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}*/
 
 img.thum {
 	align-content: center;
@@ -183,12 +248,14 @@ dt {
 	color: #480138;
 	font-size: 18px;
 	margin-bottom: 10px;
+
 }
 
 dd {
 	color: #1F323D;
 	margin-left: 2em;
 	margin-bottom: 5px;
+	
 }
 
 .description {
@@ -208,19 +275,35 @@ dd {
 }
 
 .contactlinks {
-
+	align-content: left;
+	width: 540px;
+	
 }
 
-.contactlinks {
+.contactinfo {
 
-}
-
-.contactlinks p {
-	text-align: left;
 }
 
 .contactbox {
+	background-color: #EDE7EF;
+	padding: 30px;
+	border-style: inset;
+	float: left;
+	border-radius: 25px;
+	width: 500px;
+	height: 200px;
+	
+}
 
+input.contactinfo {
+	width: 200px;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+
+input.contactinfomessage {
 }
 
 /*generic*/
@@ -233,12 +316,8 @@ h1 {
 
 h2 {
 	color: #480138;
-	text-align: center;
-	font-size: 25px;
-}
-
-h2.about {
 	text-align: left;
+	font-size: 25px;
 }
 
 h2.description {
@@ -264,7 +343,7 @@ h3.caption {
 	width: auto;
 	height: 200px;
 	display: inline;
-	align-content:center;
+	align-content: center;
 	float: left;
 	margin-right: 20px;
 }
@@ -275,14 +354,8 @@ h4 {
 
 p {
 	color: #1F323D;
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-p.about {
+	margin-bottom: 20px;
 	text-align: left;
-	float: left;
-	width: 960px;
 }
 
 p.description {
@@ -320,7 +393,6 @@ a:active {
 
 #footer {
 	width: 100%;
-	background-color: rgba(237,231,239,1);
 	height: 40px;
 	display: inline;
 	float: left;
