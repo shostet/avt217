@@ -347,21 +347,21 @@ p.description {
 	border-bottom: 1px solid grey;
 	padding-bottom: 20px;
 	width: 1080px;
-	height: 900px;
+	height: 880px;
 }
 
 #sweetspot {
 	border-bottom: 1px solid grey;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 	width: 1080px;
-	height: 1000px;
+	height: 1460px;
 }
 
 #toobit {
 	border-bottom: 1px solid grey;
 	padding-bottom: 20px;
 	width: 1080px;
-	height: 1000px;
+	height: 1510px;
 }
 
 #films {
@@ -369,6 +369,16 @@ p.description {
 	padding-bottom: 20px;
 	width: 1080px;
 	height: 1000px;
+}
+
+.gameplay {
+	width: 1080px;
+	text-align: center;
+}
+
+iframe.gameplay {
+	width: 1080px;
+	height: 607.5px;
 }
 
 img.portfolio
@@ -384,11 +394,24 @@ p.portcap {
 	font-size: 12px;
 }
 
+.musicalign {
+	width: 1080px;
+	height: 220px;
+}
+
 .music {
 	text-align: center;
 	float: left;
 	width: 350px;
 	margin: 5px;
+}
+
+h3.caption { /*caption for music video*/
+	color: #480138;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
 }
 
 .gif {
@@ -404,14 +427,32 @@ img.gif {
 	margin-bottom: 15px;
 }
 
-#description {
+.toobitgifalign {
+	width: 1080px;
+	height: 310px;
+}
+
+.toobitgif {
+	float: left;
+	margin: 0px 32px 5px 32px;
+	text-align: center;
+}
+
+img.toobitgif {
+	width: 240px;
+	height: 240px;
+	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+description {
 	margin-top: 20px;
 }
 
 .column {
 	float: left;
-	width: 320px;
-	margin: 20px 30px 20px 0px;
+	width: 350px;
+	margin: 30px 5px 20px 0px;
 	text-align: left;
 }
 
