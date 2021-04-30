@@ -61,14 +61,6 @@ html {
 	
 }
 
-main {
-	
-}
-
-main {
-	
-}
-
 #wrapper, #about, #resume, #contact, h1{
 	margin-bottom: 40px;
 }
@@ -77,15 +69,12 @@ main {
 
 header, #footer{
 	background-color: rgba(237,231,239,0.75);
+	text-align: center;
 }
 
 header {
-	height: 100px;
+	height: 70px;
 	width: 100%;
-}
-
-header, nav, .dropbtn, .dropdown, .dropdown-content {
-
 }
 
 nav {
@@ -93,21 +82,23 @@ nav {
 	align-content: center;
 }
 
-.dropbtn {
+.dropbtn, .dropbtn2 {
 	background-color: rgba(237,231,239,0.2);
 	color: black;
-	padding: 16px;
+	padding: 15px;
 	font-size: 16px;
+	margin-top: 0px;
 	border: none;
-	display: inline;
+	min-width: 160px;
 }
 
-.dropdown {
+.dropdown, .dropdown2{
 	position: relative;
-	display: inline;
+	display: inline-block;
+	margin: 10px 290px;
 }
 
-.dropdown-content {
+.dropdown-content, .dropdown-content2 {
 	display: none;
 	position: absolute;
 	background-color: #ede7ef;
@@ -128,7 +119,23 @@ nav {
 	background-color: #fefaff;
 }
 
+.dropdown-content2 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content2 a:hover {
+	background-color: #ede7ef;
+	background-color: #fefaff;
+}
+
 .dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
 	display: block;
 }
 
@@ -137,8 +144,26 @@ nav {
 	color: white;
 }
 
-.logo {
+.dropdown2:hover .dropbtn2 {
+	background-color: #480138;
+	color: white;
+}
 
+img.headlogo {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: -30px;
+}
+
+p.header {
+	color: black;
+	padding: 5px;
+	margin: 0px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
 }
 
 /*main*/
@@ -215,20 +240,6 @@ img.thum {
 
 }
 
-.film {
-	display: block;
-	width:1080px;
-	align-content: center;
-}
-
-h3.film {
-	text-align: center;
-}
-
-iframe.film {
-	align-content: center;
-}
-
 /*resume*/
 
 #resume {
@@ -268,23 +279,34 @@ li.description {
 /*contact*/
 
 #contact {
+	width: 1080px;
+}
 
+.mycontact {
+	width: 1080px;
+	height: 30px;
 }
 
 .contactlinks {
-	align-content: left;
-	width: 540px;
-	
+	float: left;
+	width: 270px;
+	height: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+img.imagelink {
+	margin-right: 100px;
 }
 
 .contactbox {
 	background-color: #EDE7EF;
-	float: right;
-	padding-top: 20px;
-	padding-left: 30px;
-	border-radius: 25px;
-	width: 500px;
+	width: 1060px;
 	height: 200px;
+	padding-top: 20px;
+	padding-left: 20px;
+	border-radius: 25px;
+	margin-top: 35px;
 }
 
 .contactinfomessage {
@@ -467,6 +489,28 @@ p.port {
 	margin-bottom: 20px;
 }
 
+.film {
+	width: 1080px;
+	text-align: center;
+	
+}
+
+iframe.film {
+	width: 1080px;
+	height: 607.5px;
+	margin-bottom: 20px;
+}
+
+h3.film {
+	margin-bottom: 20px;
+}
+
+p.film {
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid grey;
+}
+
 /*links and images*/
 
 a:link {
@@ -513,6 +557,7 @@ ul.footer {
 img.logo {
 	width: 20px;
 	height: 20px;
+	position: absolute;
 }
 
 li.footer{
@@ -520,4 +565,8 @@ li.footer{
 	width: 100px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+li.extra {
+	margin-left: 40px;
 }
