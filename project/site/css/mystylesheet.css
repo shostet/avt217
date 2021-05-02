@@ -204,7 +204,7 @@ p.about /*paragraph on the home page*/ {
 }
 
 p.aboutme /*paragraph on the about page*/{
-	font-size: 16px;
+	font-size: 20px;
 }
 
 img.rain {
@@ -212,6 +212,7 @@ img.rain {
 }
 
 p.caption {
+	font-size: 18px;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -268,27 +269,24 @@ a:hover #filmthum, a:focus #filmthum {
 	
 }
 
-dl {
-	display: block;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	margin-left: 0;
-	margin-right: 0;
+h3.resume {
+	margin-bottom: 5px;
+	font-size: 24px;
 }
 
 ul {
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 	list-style-type: disc;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 16px;
 }
 
 li, li.description {
 	color: #1F323D;
-	font-size: 15px;
+	font-size: 18px;
 	margin-left: 2em;
 	margin-bottom: 6px;
+	line-height: 1.5em;
 }
 
 li.description {
@@ -461,7 +459,7 @@ p.portcap {
 h3.caption { /*caption for music video and also home page*/
 	color: #480138;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .gif {
@@ -581,6 +579,7 @@ ul.footer {
 img.logo {
 	width: 20px;
 	height: 20px;
+	margin-top: 5px;
 	position: absolute;
 }
 
