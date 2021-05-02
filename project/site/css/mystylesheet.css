@@ -232,15 +232,35 @@ p.caption {
 	margin: 5px;
 }
 
+.project:hover {
+	text-decoration: underline;
+}
+
 img.thum {
 	width: 320px;
 	height: 180px;
 	margin-bottom: 10px;
 }
 
-.music {
-
+/*img.thum:hover {
+	transition: transform 0.2s ease-out;
 }
+
+a:hover #akithum, a:focus #akithum {
+	transform: scale(1.2);
+}
+a:hover #engramthum, a:focus #engramthum {
+	transform: scale(1.2);
+}
+a:hover #sweetspotthum, a:focus #sweetspotthum {
+	transform: scale(1.2);
+}
+a:hover #toobitthum, a:focus #toobitthum {
+	transform: scale(1.2);
+}
+a:hover #filmthum, a:focus #filmthum {
+	transform: scale(1.2);
+}*/
 
 /*resume*/
 
@@ -379,21 +399,21 @@ p.description {
 	border-bottom: 1px solid grey;
 	padding-bottom: 20px;
 	width: 1080px;
-	height: 880px;
+	height: 900px;
 }
 
 #sweetspot {
 	border-bottom: 1px solid grey;
 	padding-bottom: 50px;
 	width: 1080px;
-	height: 1460px;
+	height: 1480px;
 }
 
 #toobit {
 	border-bottom: 1px solid grey;
 	padding-bottom: 20px;
 	width: 1080px;
-	height: 1510px;
+	height: 1520px;
 }
 
 #films {
@@ -422,8 +442,8 @@ img.portfolio
 
 p.portcap {
 	text-align: center;
-	margin: 5px 0px 20px 0px;
-	font-size: 12px;
+	margin: 15px 0px 20px 10px;
+	font-size: 16px;
 }
 
 .musicalign {
@@ -438,11 +458,10 @@ p.portcap {
 	margin: 5px;
 }
 
-h3.caption { /*caption for music video*/
+h3.caption { /*caption for music video and also home page*/
 	color: #480138;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	
 }
 
 .gif {
@@ -527,20 +546,15 @@ a:link {
 	text-decoration: none;
 }
 
-a:visited {
-	color: inherit;
-	text-decoration: none;
-}
-
 a:hover {
 	color: #480138;
 }
 
 a.footer:hover {
 	color: #480138;
-	font-size: 105%;
+	font-size: 110%;
 	/*text-decoration: underline;*/
-	transition: font-size 0.2s;
+	transition: font-size 0.3s;
 	transition-timing-function: ease-out;
 }
 
