@@ -90,12 +90,14 @@ nav {
 	margin-top: 0px;
 	border: none;
 	min-width: 160px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 
 .dropdown, .dropdown2{
 	position: relative;
 	display: inline-block;
-	margin: 10px 290px;
+	margin: 10px 285px;
 }
 
 .dropdown-content, .dropdown-content2 {
@@ -216,7 +218,7 @@ p.caption {
 
 #portfolio {
 	width: 1080px;
-	height: 700px;
+	height: 600px;
 	margin-top: 40px;
 	text-align: center;
 }
@@ -246,11 +248,6 @@ img.thum {
 	
 }
 
-h3, p, ul {
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	font-size: 15px;
-}
-
 dl {
 	display: block;
 	margin-top: 1em;
@@ -262,6 +259,9 @@ dl {
 ul {
 	margin-bottom: 20px;
 	list-style-type: disc;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 li, li.description {
@@ -331,25 +331,35 @@ input[type=submit] {
 h1 {
 	color: #480138;
 	text-align: center;
-	font-size: 30px;
+	font-size: 36px;
+	font-family: 'Satisfy', cursive;
+	font-weight: 500;
+	padding-top: 5px;
 }
 
 h2 {
 	color: #480138;
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
 	margin-bottom: 20px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 600;
 }
 
 h3 {
 	color: #480138;
-	font-size: 18px;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 500;
 	margin-bottom: 10px;
 }
 
 p {
 	color: #1F323D;
 	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 p.description {
@@ -430,7 +440,6 @@ p.portcap {
 
 h3.caption { /*caption for music video*/
 	color: #480138;
-	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	
@@ -474,7 +483,7 @@ description {
 .column {
 	float: left;
 	width: 350px;
-	margin: 30px 5px 20px 0px;
+	margin: 30px 5px 5px 0px;
 	text-align: left;
 }
 
@@ -483,10 +492,6 @@ h2.port {
 	text-align: left;
 	color: #480138;
 	font-size: 25px;
-}
-
-p.port {
-	margin-bottom: 20px;
 }
 
 .film {
@@ -509,6 +514,10 @@ p.film {
 	padding-bottom: 20px;
 	margin-bottom: 40px;
 	border-bottom: 1px solid grey;
+}
+p.last {
+	margin-bottom: 0px;
+	border-bottom: none;
 }
 
 /*links and images*/
@@ -552,6 +561,7 @@ ul.footer {
 	width: 100px;
 	list-style-type: none;
 	text-align: center;
+	font-size: 15px;
 }
 
 img.logo {
