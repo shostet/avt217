@@ -61,6 +61,10 @@ html {
 	
 }
 
+#wrapper {
+	background-color: rgba(217,210,214,0.6);
+}
+
 #wrapper, #about, #resume, #contact, h1{
 	margin-bottom: 40px;
 }
@@ -297,6 +301,7 @@ li.description {
 /*contact*/
 
 #contact {
+	float: left;
 	width: 1080px;
 }
 
@@ -307,14 +312,14 @@ li.description {
 
 .contactlinks {
 	float: left;
-	width: 270px;
+	width: 540px;
 	height: 20px;
-	margin-bottom: 20px;
+	margin: 0px 0px 60px;
 	text-align: center;
 }
 
 img.imagelink {
-	margin-right: 100px;
+	text-align: center;
 }
 
 .contactbox {
